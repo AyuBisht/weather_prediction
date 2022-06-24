@@ -34,7 +34,7 @@ Submit = st.button("Submit")
 #API key from OpenWeatherMap website
 #owm is an OWM object
 #fetching the data from pyowm
-owm = pyowm.OWM('1f84abe6981c2014ea9e1f94e2b8459a')
+owm = pyowm.OWM(your-api-key)
 mgr = owm.weather_manager()
     
 Days = []
